@@ -147,9 +147,4 @@ quoteDiv.appendChild(x)
 // form.appendChild(comment)
 // form.appendChild(butt)
 
-// butt.addEventListener("mouseover", () =>{
-//     butt.style.background = 'red'
-// })
-// butt.addEventListener("mouseleave", () =>{
-//     butt.style.background = 'rgb(34, 23, 23)'
-// })
+
