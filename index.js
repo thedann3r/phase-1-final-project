@@ -99,7 +99,7 @@ function displayQuote(quote) {
         quoteDiv.appendChild(commented)
         let delComment = document.createElement("button")
         delComment.textContent = 'X'
-        delComment.style.marginLeft = "10px"
+        delComment.style.marginLeft = "15px"
         delComment.addEventListener("click", () => {
         delComment.parentNode.remove()
 })
