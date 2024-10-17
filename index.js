@@ -97,6 +97,13 @@ function displayQuote(quote) {
         let commented = document.createElement("p")
         commented.textContent = value
         quoteDiv.appendChild(commented)
+        let delComment = document.createElement("button")
+delComment.textContent = 'X'
+delComment.style.marginLeft = "10px"
+delComment.addEventListener("click", () => {
+    delComment.parentNode.remove()
+})
+commented.appendChild(delComment)
         form.reset()
     })
     quoteDiv.appendChild(form)
@@ -135,11 +142,11 @@ quoteDiv.appendChild(x)
 })
 
 
-let delComment = document.createElement("button")
-delComment.textContent = 'X'
-delComment.style.marginLeft = "10px"
-delComment.addEventListener("click", () => {
-    delComment.parentNode.remove()
-})
-commented.appendChild(delComment)
+// let delComment = document.createElement("button")
+// delComment.textContent = 'X'
+// delComment.style.marginLeft = "10px"
+// delComment.addEventListener("click", () => {
+//     delComment.parentNode.remove()
+// })
+// commented.appendChild(delComment)
 
