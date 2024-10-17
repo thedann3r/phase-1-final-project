@@ -134,5 +134,4 @@ x.addEventListener("click", () => {
 quoteDiv.appendChild(x)
 })
 
-read
 
