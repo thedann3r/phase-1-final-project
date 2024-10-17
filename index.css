@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/632/792/881/lucifer-tv-shows-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#mainQuotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.quotez {
+    border: 2px solid black;
+    width: 250px;
+    height: 160px;
+    border-radius: 7px;
+    margin: 5px;
+    background-color:rgb(0 0 0 / 50%);
+    color: gold;
+    padding: 5px;
+}
+.quoteDiv {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    background-color:rgb(0 0 0 / 50%);
+    color: white;
+    margin: 5px;
+}
+#quotes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#randomz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#random-quote-btn {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    padding: 9px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+#comment{
+    border-radius: 7px;
+    background-color: rgb(63, 61, 58);
+    padding: 2px;
+    border: 2px solid black;
+}
+.myForm{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#butt{
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(34, 23, 23);
+    border: 2px solid black;
+    height: 30px;
+}
+.x{
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 4px;
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+}
+.like{
+    background-color: black;
+}
