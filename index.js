@@ -107,6 +107,16 @@ function displayQuote(quote) {
 commented.appendChild(delComment)
         form.reset()
     })
+
+    delComment.addEventListener("mouseover", () =>{
+        delComment.style.background = 'red'
+        delComment.style.color = 'black'
+    })
+    delComment.addEventListener("mouseleave", () =>{
+        delComment.style.background = 'rgb(34, 23, 23)'
+        delComment.style.color = 'white'
+    })
+
     quoteDiv.appendChild(form)
 
     let like = document.createElement("button")
