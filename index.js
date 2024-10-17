@@ -98,6 +98,7 @@ function displayQuote(quote) {
         commented.textContent = value
         quoteDiv.appendChild(commented)
         let delComment = document.createElement("button")
+        delComment.classList.add("delComment")
         delComment.textContent = 'X'
         delComment.style.marginLeft = "15px"
         delComment.addEventListener("click", () => {
