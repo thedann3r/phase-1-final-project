@@ -134,17 +134,5 @@ x.addEventListener("click", () => {
 quoteDiv.appendChild(x)
 })
 
-// let form = document.createElement("form")
-// form.classList.add("myForm")
-// let comment = document.createElement("textarea")
-// comment.name = "comment"
-// comment.id = "comment"
-// comment.placeholder = "Add comment here..."
-// comment.required = "true"
-// let butt = document.createElement("button")
-// butt.textContent = "commit"
-// butt.type = "submit"
-// form.appendChild(comment)
-// form.appendChild(butt)
 
 
