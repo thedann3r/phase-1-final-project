@@ -142,11 +142,5 @@ quoteDiv.appendChild(x)
 })
 
 
-// let delComment = document.createElement("button")
-// delComment.textContent = 'X'
-// delComment.style.marginLeft = "10px"
-// delComment.addEventListener("click", () => {
-//     delComment.parentNode.remove()
-// })
-// commented.appendChild(delComment)
+
 
