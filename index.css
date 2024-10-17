@@ -82,3 +82,9 @@ body {
 .like{
     background-color: black;
 }
+.delComment {
+    padding: 4px;
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+}
